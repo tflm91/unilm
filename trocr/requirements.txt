@@ -1,13 +1,13 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu110/torch1.7/index.html
 
-torch==1.7.1+cu110
-torchvision==0.8.2+cu110
-timm==0.4.5
-natsort
-tensorboard
-nltk
-h5py
-numpy
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+timm
+natsort==8.4.0
+tensorboard==2.15.2
+nltk==3.8.1
+h5py==3.11.0
+numpy==1.25.2
 fastwer
-git+https://github.com/pytorch/fairseq.git
+git+https://github.com/tflm91/fairseq.git
